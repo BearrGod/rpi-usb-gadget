@@ -1,9 +1,9 @@
 package images
 
-let version = "22.04"
+let version = "20.04"
 
 let variants = {
-	"server": ["arm64", "armhf"]
+	"server": ["arm64"]
 
 	// there's no armhf desktop SHAs
 	// the desktop images are too big for GitHub releases
